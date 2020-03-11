@@ -24,7 +24,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 37px;
+  font-weight: 1.5em;
   margin-bottom: 20px;
 }
 
@@ -132,6 +133,13 @@ section {
 #home-slider {
   overflow: hidden;
   position: relative;
+}
+
+#home-slider .item{
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #home-slider .caption {
@@ -290,6 +298,8 @@ section {
   background-image: url(../images/about-bg.jpg);
   padding: 60px 0;
   margin-top: 35vh;
+  font-size: 1.2em;
+  line-height: 1.9em;
 }
 
 #about-us h2 {
@@ -314,7 +324,7 @@ section {
 ********Manpower*******
 **************************/
 #manpower{
-  
+  font-size: 1.4em;
 }
 
 #manpower h2{
@@ -342,6 +352,14 @@ section {
   width: 90px;  
   -webkit-transition: background-color 0.2s ease;
   transition: background-color 0.2s ease;
+}
+
+#services{
+  
+}
+
+#services .row p{
+  font-size: 1.4em;
 }
 
 .our-services .col-sm-4:hover .service-icon {
@@ -379,6 +397,21 @@ section {
 #portfolio .col-sm-3  {
   overflow: hidden;
   padding: 0;
+}
+
+#portfolio{
+  font-size: 1.3em;
+}
+
+#portfolio h3{
+  font-size: 1.3em;
+  margin-left: 1.2em;
+}
+
+#portfolio hr{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
 #portfolio .folio-item {
@@ -555,11 +588,21 @@ section {
   transform: scale(1.2);
 }
 
+#team .team-member img{
+  height: 300px;
+  width: 300px;
+}
 .team-member {
   text-align: center;
   color: #333;
   font-size: 14px;
 }
+
+.team-member .col-sm-12{
+  
+}
+
+
 
 .team-member:hover .social-icons ul li a.facebook {
   background-color: #3b5999;
@@ -866,6 +909,9 @@ section {
 #contact {
   padding-top: 45px;
   padding-bottom: 0;
+
+  font-size: 1.4em;
+  line-height: 1.9em;
 }
 
 #google-map {
@@ -901,6 +947,8 @@ textarea.form-control {
 .contact-info {
   padding-left:70px;
   font-weight: 300;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 1.5em;
 }
 
 ul.address {
@@ -993,3 +1041,8 @@ ul.address {
 /*Presets*/
 
 
+h2 {
+  font-size: 37px;
+  font-weight: 1.5em;
+  margin-bottom: 20px;
+}
